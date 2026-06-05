@@ -1,0 +1,17 @@
+{
+  "name": "mdot-nav",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP starter",
+  "description": "Primary nav: maroon tab bar with yellow active underline, FY pill, status text.",
+  "label": "MDOT Nav",
+  "defaultSize": {
+    "width": 1280,
+    "height": 56
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
