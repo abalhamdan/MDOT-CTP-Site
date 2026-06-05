@@ -574,7 +574,7 @@
             "top": "0px",
             "bottom": "600px",
             "width": "300px",
-            "height": 154
+            "height": 139
           },
           "setting": {
             "heightMode": "fixed"
@@ -589,7 +589,7 @@
             "top": "170px",
             "bottom": "570px",
             "width": "800px",
-            "height": 613
+            "height": "615px"
           },
           "setting": {
             "heightMode": "fixed"
@@ -631,8 +631,8 @@
           "type": "WIDGET",
           "widgetId": "widget_74",
           "bbox": {
-            "width": "1260px",
-            "height": 75
+            "width": "1270px",
+            "height": 69
           }
         },
         "1": {
@@ -640,7 +640,20 @@
           "widgetId": "widget_75",
           "bbox": {
             "width": "1270px",
-            "height": 54
+            "height": 38
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "2": {
+          "type": "WIDGET",
+          "widgetId": "widget_77",
+          "bbox": {
+            "width": "1270px",
+            "height": 41
           }
         }
       },
@@ -648,6 +661,7 @@
       "label": "Default",
       "order": [
         "0",
+        "2",
         "1"
       ]
     },
@@ -672,30 +686,41 @@
       "label": "Default",
       "order": [
         "0"
-      ]
-    },
-    "layout_39": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_77",
-          "setting": {
-            "autoProps": {
-              "height": "AUTO"
-            }
-          },
-          "bbox": {
-            "left": 0,
-            "width": 12,
-            "height": 36
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10,
+              10,
+              0,
+              10
+            ],
+            "unit": "px"
           }
         }
-      },
+      }
+    },
+    "layout_39": {
+      "content": {},
       "type": "ROW",
       "label": "Default",
-      "order": [
-        "0"
-      ]
+      "order": [],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "unit": "px"
+          }
+        }
+      }
     },
     "layout_40": {
       "content": {
@@ -703,7 +728,10 @@
           "type": "WIDGET",
           "widgetId": "widget_79",
           "setting": {
-            "heightMode": "fit"
+            "heightMode": "fit",
+            "autoProps": {
+              "height": "STRETCH"
+            }
           },
           "bbox": {
             "left": 0,
@@ -716,7 +744,21 @@
       "label": "Default",
       "order": [
         "0"
-      ]
+      ],
+      "setting": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              0,
+              10,
+              10,
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      }
     },
     "layout_41": {
       "content": {
@@ -743,8 +785,26 @@
     },
     "layout_42": {
       "type": "FLOW",
-      "content": {},
-      "order": []
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_82",
+          "bbox": {
+            "left": "75px",
+            "right": "875px",
+            "top": "0px",
+            "bottom": "400px",
+            "width": "800px",
+            "height": 420
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     },
     "layout_43": {
       "type": "FLOW",
@@ -770,6 +830,50 @@
       "type": "FLOW",
       "content": {},
       "order": []
+    },
+    "layout_48": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_83",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "400px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_49": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_84",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": 378
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.20.0",
@@ -1262,6 +1366,57 @@
       "label": "MDOT Six-Year Plan",
       "config": null,
       "id": "widget_81"
+    },
+    "widget_82": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 7",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_82",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_48"
+        }
+      }
+    },
+    "widget_83": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Row 12",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_83",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_49"
+        }
+      }
+    },
+    "widget_84": {
+      "uri": "widgets/mdot-projects-table-full/",
+      "version": "1.0.0",
+      "label": "MDOT Projects Table (Full)",
+      "config": null,
+      "id": "widget_84"
     }
   },
   "widgetsManifest": {},
@@ -1279,7 +1434,7 @@
     "type": "Web Experience",
     "thumbnail": null
   },
-  "timestamp": 1780660881886,
+  "timestamp": 1780669894698,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -1336,5 +1491,5 @@
   "permission": {
     "restrictions": []
   },
-  "publishTimestamp": 1780662876883
+  "publishTimestamp": 1780669940599
 }
