@@ -1,0 +1,17 @@
+{
+  "name": "project-page-schedule",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP starter",
+  "description": "Project detail page — PHASE and STATUS pills. Static values for now (Ongoing / Active); reads ?pif= and will pull from table fields when columns are present.",
+  "label": "Project_Page_Phase_Status",
+  "defaultSize": {
+    "width": 500,
+    "height": 160
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
