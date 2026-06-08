@@ -955,7 +955,10 @@
           "type": "WIDGET",
           "widgetId": "widget_114",
           "setting": {
-            "heightMode": "fit"
+            "heightMode": "fit",
+            "autoProps": {
+              "height": "AUTO"
+            }
           },
           "bbox": {
             "left": 0,
@@ -1770,7 +1773,7 @@
     "type": "Web Experience",
     "thumbnail": null
   },
-  "timestamp": 1780934781338,
+  "timestamp": 1780935034130,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -1827,5 +1830,5 @@
   "permission": {
     "restrictions": []
   },
-  "publishTimestamp": 1780934782852
+  "publishTimestamp": 1780935055976
 }
