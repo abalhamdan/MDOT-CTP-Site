@@ -758,8 +758,8 @@
             }
           },
           "bbox": {
-            "left": 5,
-            "width": 7,
+            "left": 6,
+            "width": 6,
             "height": "458px"
           }
         },
@@ -773,7 +773,7 @@
           },
           "bbox": {
             "left": 0,
-            "width": 5,
+            "width": 6,
             "height": "345px"
           }
         }
@@ -886,8 +886,8 @@
           "type": "WIDGET",
           "widgetId": "widget_112",
           "bbox": {
-            "width": "523px",
-            "height": "345px"
+            "width": "630px",
+            "height": "149px"
           },
           "setting": {
             "autoProps": {
@@ -1764,16 +1764,9 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Untitled experience 1",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1780935034130,
+  "timestamp": 1781186296870,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -1829,6 +1822,5 @@
   },
   "permission": {
     "restrictions": []
-  },
-  "publishTimestamp": 1780935055976
+  }
 }
