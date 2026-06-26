@@ -1,0 +1,17 @@
+{
+  "name": "mdot-capital-budget-donut",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP starter",
+  "description": "Interactive donut chart of capital budget expenditures by category. Hover highlights the slice + legend + tooltip; click drills to the Projects By Category page. Pair with mdot-capital-budget-stats for the full overview panel.",
+  "label": "MDOT Capital Budget Donut",
+  "defaultSize": {
+    "width": 720,
+    "height": 560
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}

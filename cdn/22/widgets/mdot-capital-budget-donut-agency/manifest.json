@@ -1,0 +1,17 @@
+{
+  "name": "mdot-capital-budget-donut-agency",
+  "type": "widget",
+  "version": "1.0.0",
+  "exbVersion": "1.20.0",
+  "author": "MDOT CTP starter",
+  "description": "Interactive donut chart of % total expenditures by agency. One slice per distinct Agency_code in the Project table; percentages derived from total_budget_000s. Hover highlights the slice + legend + tooltip; click drills to the projects-by-agency page.",
+  "label": "MDOT Capital Budget Donut (Agency)",
+  "defaultSize": {
+    "width": 720,
+    "height": 560
+  },
+  "properties": {
+    "hasConfig": false,
+    "hasSettingPage": false
+  }
+}
