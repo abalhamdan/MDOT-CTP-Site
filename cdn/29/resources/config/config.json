@@ -722,26 +722,8 @@
     },
     "layout_46": {
       "type": "FLOW",
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_193",
-          "bbox": {
-            "left": "0px",
-            "right": "800px",
-            "top": "0px",
-            "bottom": "500px",
-            "width": "800px",
-            "height": 520
-          },
-          "setting": {
-            "heightMode": "fixed"
-          }
-        }
-      },
-      "order": [
-        "0"
-      ]
+      "content": {},
+      "order": []
     },
     "layout_47": {
       "type": "FLOW",
@@ -1857,27 +1839,6 @@
             "left": 0,
             "width": 12,
             "height": 380
-          }
-        }
-      },
-      "type": "ROW",
-      "label": "Default",
-      "order": [
-        "0"
-      ]
-    },
-    "layout_120": {
-      "content": {
-        "0": {
-          "type": "WIDGET",
-          "widgetId": "widget_194",
-          "setting": {
-            "heightMode": "fit"
-          },
-          "bbox": {
-            "left": 0,
-            "width": 10,
-            "height": 500
           }
         }
       },
@@ -3275,37 +3236,6 @@
       "label": "Agency_Page_Funding_Pie",
       "config": null,
       "id": "widget_192"
-    },
-    "widget_193": {
-      "uri": "widgets/layout/row/",
-      "version": "1.20.0",
-      "label": "Block 20",
-      "config": {
-        "space": 10,
-        "style": {
-          "padding": {
-            "number": [
-              10
-            ],
-            "unit": "px"
-          }
-        }
-      },
-      "id": "widget_193",
-      "layouts": {
-        "DEFAULT": {
-          "LARGE": "layout_120"
-        }
-      }
-    },
-    "widget_194": {
-      "uri": "widgets/simple/",
-      "version": "1.20.0",
-      "label": "Simple",
-      "config": {
-        "exampleConfigProperty": "test"
-      },
-      "id": "widget_194"
     }
   },
   "widgetsManifest": {},
@@ -3314,16 +3244,9 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Untitled experience 1",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1786063573475,
+  "timestamp": 1786110834278,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -3379,17 +3302,5 @@
   },
   "permission": {
     "restrictions": []
-  },
-  "historyLabels": {
-    "pages": {
-      "page_13": [
-        "Modes"
-      ],
-      "page_22": [
-        "Public Input",
-        "Project Level Information"
-      ]
-    }
-  },
-  "publishTimestamp": 1786063575970
+  }
 }
