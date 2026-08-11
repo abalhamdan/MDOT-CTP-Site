@@ -151,7 +151,7 @@
             "height": 519
           },
           "setting": {
-            "heightMode": "fixed"
+            "heightMode": "auto"
           }
         },
         "3": {
@@ -3246,7 +3246,7 @@
   "attributes": {
     "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1786452660692,
+  "timestamp": 1786454391153,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
