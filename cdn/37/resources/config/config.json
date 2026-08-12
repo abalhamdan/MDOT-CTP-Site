@@ -722,8 +722,26 @@
     },
     "layout_46": {
       "type": "FLOW",
-      "content": {},
-      "order": []
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_197",
+          "bbox": {
+            "left": "40px",
+            "right": "840px",
+            "top": "0px",
+            "bottom": "500px",
+            "width": "800px",
+            "height": 520
+          },
+          "setting": {
+            "heightMode": "fixed"
+          }
+        }
+      },
+      "order": [
+        "0"
+      ]
     },
     "layout_47": {
       "type": "FLOW",
@@ -1847,13 +1865,40 @@
       "order": [
         "0"
       ]
+    },
+    "layout_122": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_198",
+          "setting": {
+            "heightMode": "fit"
+          },
+          "bbox": {
+            "left": 0,
+            "width": 8,
+            "height": 500
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
     }
   },
   "exbVersion": "1.20.0",
   "mainSizeMode": "LARGE",
   "theme": "themes/master/",
   "forBuilderAttributes": {
-    "lockLayout": false
+    "lockLayout": false,
+    "viewPortSize": {
+      "MEDIUM": {
+        "width": 834,
+        "height": 1112
+      }
+    }
   },
   "template": "blankscrollable",
   "widgets": {
@@ -3236,6 +3281,37 @@
       "label": "Agency_Page_Funding_Pie",
       "config": null,
       "id": "widget_192"
+    },
+    "widget_197": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 20",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_197",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_122"
+        }
+      }
+    },
+    "widget_198": {
+      "uri": "widgets/simple/",
+      "version": "1.20.0",
+      "label": "Simple",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_198"
     }
   },
   "widgetsManifest": {},
@@ -3244,16 +3320,9 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Untitled experience 1",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1786454391153,
+  "timestamp": 1786535436297,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -3309,17 +3378,5 @@
   },
   "permission": {
     "restrictions": []
-  },
-  "historyLabels": {
-    "pages": {
-      "page_13": [
-        "Modes"
-      ],
-      "page_22": [
-        "Public Input",
-        "Project Level Information"
-      ]
-    }
-  },
-  "publishTimestamp": 1786454392926
+  }
 }
