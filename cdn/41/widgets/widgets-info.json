@@ -12963,6 +12963,30 @@
     "group": 7
   },
   {
+    "name": "project-page-expenditures-detail",
+    "manifest": {
+      "name": "project-page-expenditures-detail",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP starter",
+      "description": "Project Level Information — Expenditures detail: MDOT-themed area chart of expenditures by cost element across fiscal years, plus a data table underneath showing all buckets. Reads ?pif= from the URL. Hovering the chart shows a popup with every series' amount at that x-position.",
+      "label": "Project_Page_Expenditures_Detail",
+      "defaultSize": {
+        "width": 1080,
+        "height": 720
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/project-page-expenditures-detail/",
+    "icon": "widgets/project-page-expenditures-detail/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "project-page-funding",
     "manifest": {
       "name": "project-page-funding",
@@ -13007,6 +13031,30 @@
     },
     "uri": "widgets/project-page-funding-chart/",
     "icon": "widgets/project-page-funding-chart/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "project-page-funding-detail",
+    "manifest": {
+      "name": "project-page-funding-detail",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP starter",
+      "description": "Project Level Information — Funding detail: MDOT-themed area chart of funding sources across fiscal years, plus a data table underneath showing all buckets. Reads ?pif= from the URL. Hovering the chart shows a popup with every source's amount at that x-position.",
+      "label": "Project_Page_Funding_Detail",
+      "defaultSize": {
+        "width": 1080,
+        "height": 720
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/project-page-funding-detail/",
+    "icon": "widgets/project-page-funding-detail/icon.png",
     "order": 700,
     "group": 7
   },

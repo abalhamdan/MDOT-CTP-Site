@@ -792,12 +792,28 @@
           "setting": {
             "heightMode": "auto"
           }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_199",
+          "bbox": {
+            "left": "0px",
+            "right": "800px",
+            "top": "1040px",
+            "bottom": "1440px",
+            "width": "800px",
+            "height": 420
+          },
+          "setting": {
+            "heightMode": "auto"
+          }
         }
       },
       "order": [
         "0",
         "2",
-        "3"
+        "3",
+        "4"
       ]
     },
     "layout_48": {
@@ -1880,6 +1896,53 @@
             "left": 0,
             "width": 8,
             "height": 500
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_123": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_200",
+          "setting": {
+            "heightMode": "fit",
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "400px"
+          }
+        }
+      },
+      "type": "ROW",
+      "label": "Default",
+      "order": [
+        "0"
+      ]
+    },
+    "layout_124": {
+      "content": {
+        "0": {
+          "type": "WIDGET",
+          "widgetId": "widget_201",
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          },
+          "bbox": {
+            "left": 0,
+            "width": 12,
+            "height": "378px"
           }
         }
       },
@@ -3314,6 +3377,57 @@
         "exampleConfigProperty": "test"
       },
       "id": "widget_198"
+    },
+    "widget_199": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Block 21",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_199",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_123"
+        }
+      }
+    },
+    "widget_200": {
+      "uri": "widgets/layout/row/",
+      "version": "1.20.0",
+      "label": "Row 30",
+      "config": {
+        "space": 10,
+        "style": {
+          "padding": {
+            "number": [
+              10
+            ],
+            "unit": "px"
+          }
+        }
+      },
+      "id": "widget_200",
+      "layouts": {
+        "DEFAULT": {
+          "LARGE": "layout_124"
+        }
+      }
+    },
+    "widget_201": {
+      "uri": "widgets/project-page-expenditures-detail/",
+      "version": "1.0.0",
+      "label": "Project_Page_Expenditures_Detail",
+      "config": null,
+      "id": "widget_201"
     }
   },
   "widgetsManifest": {},
@@ -3322,9 +3436,16 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com"
+    "portalUrl": "https://SPP.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Untitled experience 1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1787148196616,
+  "timestamp": 1787153724866,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -3380,5 +3501,26 @@
   },
   "permission": {
     "restrictions": []
-  }
+  },
+  "historyLabels": {
+    "pages": {
+      "page_5": [
+        "map"
+      ],
+      "page_8": [
+        "projects"
+      ],
+      "page_13": [
+        "Modes"
+      ],
+      "page_19": [
+        "Documents"
+      ],
+      "page_22": [
+        "Public Input",
+        "Project Level Information"
+      ]
+    }
+  },
+  "publishTimestamp": 1787153728484
 }
