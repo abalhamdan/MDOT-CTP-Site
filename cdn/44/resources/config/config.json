@@ -1913,12 +1913,27 @@
             "width": 8,
             "height": 500
           }
+        },
+        "1": {
+          "type": "WIDGET",
+          "widgetId": "widget_206",
+          "setting": {
+            "autoProps": {
+              "height": "STRETCH"
+            }
+          },
+          "bbox": {
+            "left": 8,
+            "width": 4,
+            "height": 498
+          }
         }
       },
       "type": "ROW",
       "label": "Default",
       "order": [
-        "0"
+        "0",
+        "1"
       ]
     },
     "layout_123": {
@@ -3542,6 +3557,15 @@
       "label": "Project_Page_Funding_Detail",
       "config": null,
       "id": "widget_205"
+    },
+    "widget_206": {
+      "uri": "widgets/simple/",
+      "version": "1.20.0",
+      "label": "Simple 2",
+      "config": {
+        "exampleConfigProperty": "test"
+      },
+      "id": "widget_206"
     }
   },
   "widgetsManifest": {},
@@ -3552,7 +3576,7 @@
   "attributes": {
     "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1787186207566,
+  "timestamp": 1787187739330,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
