@@ -1576,7 +1576,25 @@
           "widgetId": "widget_169",
           "bbox": {
             "width": "620px",
-            "height": 755
+            "height": "755px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
+          }
+        },
+        "4": {
+          "type": "WIDGET",
+          "widgetId": "widget_207",
+          "bbox": {
+            "width": "620px",
+            "height": "480px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         }
       },
@@ -1586,6 +1604,7 @@
         "0",
         "1",
         "2",
+        "4",
         "3"
       ]
     },
@@ -1759,6 +1778,11 @@
           "bbox": {
             "width": "620px",
             "height": "400px"
+          },
+          "setting": {
+            "autoProps": {
+              "height": "AUTO"
+            }
           }
         },
         "4": {
@@ -1861,7 +1885,7 @@
           "widgetId": "widget_191",
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -1884,7 +1908,7 @@
           "widgetId": "widget_192",
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -3566,6 +3590,13 @@
         "exampleConfigProperty": "test"
       },
       "id": "widget_206"
+    },
+    "widget_207": {
+      "uri": "widgets/county-page-cost-element/",
+      "version": "1.0.0",
+      "label": "County_Page_Cost_Element",
+      "config": null,
+      "id": "widget_207"
     }
   },
   "widgetsManifest": {},
@@ -3574,9 +3605,16 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com"
+    "portalUrl": "https://SPP.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Untitled experience 1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1787249467747,
+  "timestamp": 1787253119486,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -3632,5 +3670,26 @@
   },
   "permission": {
     "restrictions": []
-  }
+  },
+  "historyLabels": {
+    "pages": {
+      "page_5": [
+        "map"
+      ],
+      "page_8": [
+        "projects"
+      ],
+      "page_13": [
+        "Modes"
+      ],
+      "page_19": [
+        "Documents"
+      ],
+      "page_22": [
+        "Public Input",
+        "Project Level Information"
+      ]
+    }
+  },
+  "publishTimestamp": 1787253121253
 }
