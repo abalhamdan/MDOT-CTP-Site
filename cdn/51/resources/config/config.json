@@ -737,7 +737,7 @@
             "height": 420
           },
           "setting": {
-            "heightMode": "fixed"
+            "heightMode": "auto"
           }
         }
       },
@@ -2026,7 +2026,7 @@
           "setting": {
             "heightMode": "fit",
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             },
             "style": {
               "alignSelf": "flex-start"
@@ -2052,7 +2052,7 @@
           "widgetId": "widget_215",
           "setting": {
             "autoProps": {
-              "height": "STRETCH"
+              "height": "AUTO"
             }
           },
           "bbox": {
@@ -3630,16 +3630,9 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com",
-    "isWebTier": false,
-    "clientId": "",
-    "express": false,
-    "title": "Untitled experience 1",
-    "description": "",
-    "type": "Web Experience",
-    "thumbnail": null
+    "portalUrl": "https://SPP.maps.arcgis.com"
   },
-  "timestamp": 1787881717816,
+  "timestamp": 1787882097180,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -3695,26 +3688,5 @@
   },
   "permission": {
     "restrictions": []
-  },
-  "historyLabels": {
-    "pages": {
-      "page_5": [
-        "map"
-      ],
-      "page_8": [
-        "projects"
-      ],
-      "page_13": [
-        "Modes"
-      ],
-      "page_19": [
-        "Documents"
-      ],
-      "page_22": [
-        "Public Input",
-        "Project Level Information"
-      ]
-    }
-  },
-  "publishTimestamp": 1787881718624
+  }
 }
