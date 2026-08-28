@@ -2026,13 +2026,16 @@
           "setting": {
             "heightMode": "fit",
             "autoProps": {
-              "height": "AUTO"
+              "height": "STRETCH"
+            },
+            "style": {
+              "alignSelf": "flex-start"
             }
           },
           "bbox": {
             "left": 0,
             "width": 12,
-            "height": "400px"
+            "height": "2000.00px"
           }
         }
       },
@@ -2046,16 +2049,16 @@
       "content": {
         "0": {
           "type": "WIDGET",
-          "widgetId": "widget_212",
+          "widgetId": "widget_215",
           "setting": {
             "autoProps": {
-              "height": "AUTO"
+              "height": "STRETCH"
             }
           },
           "bbox": {
             "left": 0,
             "width": 12,
-            "height": "1000.00px"
+            "height": 74.609375
           }
         }
       },
@@ -3613,12 +3616,12 @@
         }
       }
     },
-    "widget_212": {
+    "widget_215": {
       "uri": "widgets/references-page-guide/",
       "version": "1.0.0",
       "label": "References Page Guide",
       "config": null,
-      "id": "widget_212"
+      "id": "widget_215"
     }
   },
   "widgetsManifest": {},
@@ -3627,9 +3630,16 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com"
+    "portalUrl": "https://SPP.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Untitled experience 1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1787880447546,
+  "timestamp": 1787881717816,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -3685,5 +3695,26 @@
   },
   "permission": {
     "restrictions": []
-  }
+  },
+  "historyLabels": {
+    "pages": {
+      "page_5": [
+        "map"
+      ],
+      "page_8": [
+        "projects"
+      ],
+      "page_13": [
+        "Modes"
+      ],
+      "page_19": [
+        "Documents"
+      ],
+      "page_22": [
+        "Public Input",
+        "Project Level Information"
+      ]
+    }
+  },
+  "publishTimestamp": 1787881718624
 }
