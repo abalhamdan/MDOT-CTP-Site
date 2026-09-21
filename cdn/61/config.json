@@ -3626,9 +3626,16 @@
   "dialogs": {},
   "messageConfigs": {},
   "attributes": {
-    "portalUrl": "https://SPP.maps.arcgis.com"
+    "portalUrl": "https://SPP.maps.arcgis.com",
+    "isWebTier": false,
+    "clientId": "",
+    "express": false,
+    "title": "Untitled experience 1",
+    "description": "",
+    "type": "Web Experience",
+    "thumbnail": null
   },
-  "timestamp": 1789993736224,
+  "timestamp": 1789995863417,
   "sharedThemeVariables": null,
   "mainLocale": "en",
   "dataSources": {
@@ -3684,5 +3691,26 @@
   },
   "permission": {
     "restrictions": []
-  }
+  },
+  "historyLabels": {
+    "pages": {
+      "page_5": [
+        "map"
+      ],
+      "page_8": [
+        "projects"
+      ],
+      "page_13": [
+        "Modes"
+      ],
+      "page_19": [
+        "Documents"
+      ],
+      "page_22": [
+        "Public Input",
+        "Project Level Information"
+      ]
+    }
+  },
+  "publishTimestamp": 1789995864163
 }
