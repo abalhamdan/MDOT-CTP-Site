@@ -12621,6 +12621,54 @@
     "group": 7
   },
   {
+    "name": "mdot-hub-hero",
+    "manifest": {
+      "name": "mdot-hub-hero",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Hub landing hero: maroon gradient banner with serif headline, program descriptor, and key statistics strip. Place at the top of the Capital Budget Hub page.",
+      "label": "MDOT Hub Hero",
+      "defaultSize": {
+        "width": 1200,
+        "height": 400
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-hub-hero/",
+    "icon": "widgets/mdot-hub-hero/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
+    "name": "mdot-hub-tools",
+    "manifest": {
+      "name": "mdot-hub-tools",
+      "type": "widget",
+      "version": "1.0.0",
+      "exbVersion": "1.20.0",
+      "author": "MDOT CTP",
+      "description": "Hub tools & sites grid: four top-level platform cards plus the animated Prioritization Ecosystem node panel connecting the Prioritization Site to its two sub-sites. Place below the Hub Hero widget.",
+      "label": "MDOT Hub Tools",
+      "defaultSize": {
+        "width": 1200,
+        "height": 900
+      },
+      "properties": {
+        "hasConfig": false,
+        "hasSettingPage": false
+      }
+    },
+    "uri": "widgets/mdot-hub-tools/",
+    "icon": "widgets/mdot-hub-tools/icon.png",
+    "order": 700,
+    "group": 7
+  },
+  {
     "name": "mdot-investment-area",
     "manifest": {
       "name": "mdot-investment-area",
